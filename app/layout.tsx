@@ -9,8 +9,10 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "RY Tech IT Solutions",
   authors: [{ name: "RY Tech IT Solutions" }],
+  icons: {
+    icon: "/rytech.ico",
+  },
 }
-
 export default function RootLayout({
   children,
 }: Readonly<{
