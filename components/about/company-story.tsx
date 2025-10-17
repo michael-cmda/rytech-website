@@ -64,7 +64,7 @@ export default function CompanyStory() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-card-foreground">Established</h3>
-                    <p className="text-muted-foreground">Serving businesses since 2019</p>
+                    <p className="text-muted-foreground">Serving businesses since 2024</p>
                   </div>
                 </div>
               </div>
