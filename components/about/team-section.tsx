@@ -22,7 +22,7 @@ export default function TeamSection() {
       name: "Rendell Yap",
       role: "Founder & Lead IT Consultant",
       description:
-        "With over 5 years of experience in IT solutions and cybersecurity, Rendell leads RY Tech with a passion for helping businesses leverage technology securely and efficiently. His expertise spans network infrastructure, security systems, and custom software development.",
+        "With over 5 years of experience in IT solutions and cybersecurity, Rendell leads RY Tech with a passion for helping businesses leverage technology securely and efficiently. His expertise spans network infrastructure, security systems.",
       email: "rendellcolinayap@gmail.com",
       phone: "+63 955 961 0555",
       location: "B28 L31 Phase 3 NHA Bangkal, Talomo, Davao City 8000, Philippines",
