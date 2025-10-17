@@ -52,20 +52,6 @@ export default function ServiceHero({ title, description, icon: iconName, backgr
 
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="animate-pulse-glow text-lg px-8 py-3">
-              <Link href="/contact">
-                Get Started
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Link>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="text-lg px-8 py-3 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent backdrop-blur-sm"
-            >
-              <Link href="/contact">Request Quote</Link>
-            </Button>
           </div>
         </div>
       </div>

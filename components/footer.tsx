@@ -3,11 +3,11 @@ import Image from "next/image"
 import { Shield, Network, Laptop, Lock, Code, Headphones, Mail, Phone, MapPin } from "lucide-react"
 
 const services = [
+  { name: "Software Development", href: "/services/software", icon: Code },
   { name: "CCTV & Security", href: "/services/cctv", icon: Shield },
   { name: "Networking", href: "/services/networking", icon: Network },
   { name: "Computer Repair", href: "/services/laptop-repair", icon: Laptop },
   { name: "Cybersecurity", href: "/services/security-devices", icon: Lock },
-  { name: "Software Development", href: "/services/software", icon: Code },
   { name: "IT Support", href: "/services/it-support", icon: Headphones },
 ]
 
@@ -53,11 +53,6 @@ export default function Footer() {
               <li>
                 <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/projects" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                  Projects
                 </Link>
               </li>
               <li>

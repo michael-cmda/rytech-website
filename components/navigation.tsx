@@ -69,9 +69,7 @@ export default function Navigation() {
             <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact
             </Link>
-            <Button asChild className="animate-pulse-glow">
-              <Link href="/contact">Get Started</Link>
-            </Button>
+          
           </div>
 
           {/* Mobile menu button */}
@@ -123,13 +121,7 @@ export default function Navigation() {
               >
                 Contact
               </Link>
-              <div className="px-3 py-2">
-                <Button asChild className="w-full">
-                  <Link href="/contact" onClick={() => setIsOpen(false)}>
-                    Get Started
-                  </Link>
-                </Button>
-              </div>
+
             </div>
           </div>
         )}
