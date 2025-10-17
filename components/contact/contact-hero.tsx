@@ -56,12 +56,7 @@ export default function ContactHero() {
             </div>
           </div>
 
-          <Button
-            size="lg"
-            className="bg-[var(--primary)] hover:bg-[var(--primary)]/90 text-[var(--primary-foreground)] font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[var(--accent)]/30"
-          >
-            Start Your Project
-          </Button>
+        
         </motion.div>
       </div>
     </section>

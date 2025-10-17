@@ -18,11 +18,12 @@ export default function ContactPage() {
       <main>
         <ContactHero />
         <div className="py-20">
-          <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12">
-              <ContactInfo />
-            </div>
-          </div>
+        <div className="py-20">
+  <div className="container mx-auto px-4 flex justify-center">
+    <ContactInfo />
+  </div>
+</div>
+
         </div>
         <ContactMap />
       </main>

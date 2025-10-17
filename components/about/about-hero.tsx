@@ -13,7 +13,7 @@ export default function AboutHero() {
   const stats = [
     { icon: Users, number: "50+", label: "Happy Clients" },
     { icon: Award, number: "100+", label: "Projects Completed" },
-    { icon: Clock, number: "5+", label: "Years Experience" },
+    { icon: Clock, number: "15+", label: "Years Experience" },
   ]
 
   return (
